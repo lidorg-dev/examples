@@ -1,5 +1,5 @@
 cffi==1.8.3
-cryptography==1.5.2
+cryptography==42.0.2
 elasticsearch==5.0.0
 elasticsearch-xpack==5.0.0
 idna==2.1
@@ -13,3 +13,4 @@ pyOpenSSL==16.1.0
 simplejson==3.8.2
 six==1.10.0
 urllib3==1.17
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
