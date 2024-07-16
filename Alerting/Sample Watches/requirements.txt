@@ -13,3 +13,4 @@ pyOpenSSL==16.1.0
 simplejson==3.8.2
 six==1.10.0
 urllib3==1.17
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
